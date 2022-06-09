@@ -35,10 +35,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-  hello-world-wruindows:
+   hello-world-wruindows:
     run-on: windows-latest  
     
     steps:
       - name: Print hello World Windows
-         run: echo 'Hello world rodando no windows'
+        run: echo "Hello World rodando no windows"
+         
+         
       
